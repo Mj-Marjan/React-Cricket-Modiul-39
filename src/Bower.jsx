@@ -8,9 +8,9 @@ export default function Bowler() {
         setWide(Wide + 1);
     }
     
-    // const mainWecket = (10 -WecketHandelar)
+   
     return (
-        <div style={{border : '2px solid rgba(255, 255, 255, 0.8)', padding: '10px', margin: '10px', backgroundColor: 'perple', color: 'white', cursor: 'pointer',}}>
+        <div style={{border : '2px solid rgba(255, 255, 255, 0.8)', padding: '10px', margin: '10px', backgroundColor: 'purple', color: 'white', cursor: 'pointer',}}>
             <h3>Player: Micel Strac</h3>
             <p>Collect-Wecket: {Wecket}</p>
             <h4>Wide: {Wide}</h4>
